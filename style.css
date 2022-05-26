@@ -1,0 +1,203 @@
+body {
+    font-family: 'Inter', sans-serif;
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;   
+}
+
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+
+.logo:hover{
+    color: dark-blue-100;
+}
+main{
+    display: flex;
+}
+
+.input-text{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    border: 0 none;
+}
+::placeholder { 
+    color: #0A3871;
+ }
+ .input-text:focus{
+    outline: 0 none;
+ }
+.advertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+.advertencia-texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+.encriptar{
+    width: 328px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    border: 0 none;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.desencriptar{
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0A3871;
+}
+#rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    border-radius: 32px;
+}
+#munieco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+}
+#mensaje-1{
+    position: absolute;
+    top: 579px;
+    right: 32px;
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+#mensaje-2{
+    position: absolute;
+    top: 653px;
+    right: 32px;
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+.input-text-area{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 36px;
+    top: 40px;
+    width: 336px;
+    height: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+#copiar{
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 36px;
+    top: 845px;
+    display: none;
+
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0A3871;
+
+}
+.copyright{
+    position: absolute;
+    font-family: 'Inter';
+    left: 575px;
+    top: 1000px;
+    font-size: 13px;
+    
+}
